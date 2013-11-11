@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25BF18AE1830B74F00CDDB55 /* PertamaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BF18AD1830B74F00CDDB55 /* PertamaStoryboard.storyboard */; };
+		25BF18B01830B8F200CDDB55 /* KeduaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BF18AF1830B8F200CDDB55 /* KeduaStoryboard.storyboard */; };
+		25BF18B31830BCB000CDDB55 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BF18B21830BCB000CDDB55 /* MainTabBarController.m */; };
+		25BF18B61830CC2F00CDDB55 /* PertamaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BF18B51830CC2F00CDDB55 /* PertamaViewController.m */; };
 		25F2DED01830B2CE00EAB0D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F2DECF1830B2CE00EAB0D1 /* Foundation.framework */; };
 		25F2DED21830B2CE00EAB0D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F2DED11830B2CE00EAB0D1 /* CoreGraphics.framework */; };
 		25F2DED41830B2CE00EAB0D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F2DED31830B2CE00EAB0D1 /* UIKit.framework */; };
@@ -22,6 +26,7 @@
 		25F2DEF11830B2CE00EAB0D1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F2DED51830B2CE00EAB0D1 /* CoreData.framework */; };
 		25F2DEF91830B2CE00EAB0D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25F2DEF71830B2CE00EAB0D1 /* InfoPlist.strings */; };
 		25F2DEFB1830B2CE00EAB0D1 /* cobaMultiSBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F2DEFA1830B2CE00EAB0D1 /* cobaMultiSBTests.m */; };
+		25F2DF051830B3B700EAB0D1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F2DF041830B3B700EAB0D1 /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25BF18AD1830B74F00CDDB55 /* PertamaStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PertamaStoryboard.storyboard; sourceTree = "<group>"; };
+		25BF18AF1830B8F200CDDB55 /* KeduaStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KeduaStoryboard.storyboard; sourceTree = "<group>"; };
+		25BF18B11830BCB000CDDB55 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		25BF18B21830BCB000CDDB55 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		25BF18B41830CC2F00CDDB55 /* PertamaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PertamaViewController.h; sourceTree = "<group>"; };
+		25BF18B51830CC2F00CDDB55 /* PertamaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PertamaViewController.m; sourceTree = "<group>"; };
 		25F2DECC1830B2CE00EAB0D1 /* cobaMultiSB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cobaMultiSB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F2DECF1830B2CE00EAB0D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		25F2DED11830B2CE00EAB0D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +64,7 @@
 		25F2DEF61830B2CE00EAB0D1 /* cobaMultiSBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cobaMultiSBTests-Info.plist"; sourceTree = "<group>"; };
 		25F2DEF81830B2CE00EAB0D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25F2DEFA1830B2CE00EAB0D1 /* cobaMultiSBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cobaMultiSBTests.m; sourceTree = "<group>"; };
+		25F2DF041830B3B700EAB0D1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +132,13 @@
 				25F2DEE61830B2CE00EAB0D1 /* Images.xcassets */,
 				25F2DEE31830B2CE00EAB0D1 /* cobaMultiSB.xcdatamodeld */,
 				25F2DED81830B2CE00EAB0D1 /* Supporting Files */,
+				25F2DF041830B3B700EAB0D1 /* MainStoryboard.storyboard */,
+				25BF18AD1830B74F00CDDB55 /* PertamaStoryboard.storyboard */,
+				25BF18AF1830B8F200CDDB55 /* KeduaStoryboard.storyboard */,
+				25BF18B11830BCB000CDDB55 /* MainTabBarController.h */,
+				25BF18B21830BCB000CDDB55 /* MainTabBarController.m */,
+				25BF18B41830CC2F00CDDB55 /* PertamaViewController.h */,
+				25BF18B51830CC2F00CDDB55 /* PertamaViewController.m */,
 			);
 			path = cobaMultiSB;
 			sourceTree = "<group>";
@@ -228,7 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F2DF051830B3B700EAB0D1 /* MainStoryboard.storyboard in Resources */,
 				25F2DEDC1830B2CE00EAB0D1 /* InfoPlist.strings in Resources */,
+				25BF18AE1830B74F00CDDB55 /* PertamaStoryboard.storyboard in Resources */,
+				25BF18B01830B8F200CDDB55 /* KeduaStoryboard.storyboard in Resources */,
 				25F2DEE71830B2CE00EAB0D1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +272,9 @@
 			files = (
 				25F2DEE21830B2CE00EAB0D1 /* AppDelegate.m in Sources */,
 				25F2DEDE1830B2CE00EAB0D1 /* main.m in Sources */,
+				25BF18B31830BCB000CDDB55 /* MainTabBarController.m in Sources */,
 				25F2DEE51830B2CE00EAB0D1 /* cobaMultiSB.xcdatamodeld in Sources */,
+				25BF18B61830CC2F00CDDB55 /* PertamaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +475,7 @@
 				25F2DF001830B2CE00EAB0D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25F2DF011830B2CE00EAB0D1 /* Build configuration list for PBXNativeTarget "cobaMultiSBTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +484,7 @@
 				25F2DF031830B2CE00EAB0D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
